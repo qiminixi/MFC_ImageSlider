@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImgSlider - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ImgSlider.res" /d "NDEBUG" /d "_AFXDLL" "F:\0_codespace\MFC\programs\ImgSlider\ImgSlider_GDI\ImgSlider.rc"" 
+Creating temporary file "C:\Users\qiminixi\AppData\Local\Temp\RSP3E98.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ImgSlider.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0_codespace\MFC\programs\ImgSlider\ImgSlider_GDI\ImgSlider.cpp"
+"F:\0_codespace\MFC\programs\ImgSlider\ImgSlider_GDI\ImgSliderCtrl.cpp"
+"F:\0_codespace\MFC\programs\ImgSlider\ImgSlider_GDI\ImgSliderDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\qiminixi\AppData\Local\Temp\RSP3E98.tmp" 
+Creating temporary file "C:\Users\qiminixi\AppData\Local\Temp\RSP3E99.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ImgSlider.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0_codespace\MFC\programs\ImgSlider\ImgSlider_GDI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\qiminixi\AppData\Local\Temp\RSP3E99.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/ImgSlider.pdb" /machine:I386 /out:"Release/ImgSlider.exe"  .\Release\ImgSlider.obj .\Release\ImgSliderCtrl.obj .\Release\ImgSliderDlg.obj .\Release\StdAfx.obj .\Release\ImgSlider.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ImgSlider.cpp
+ImgSliderCtrl.cpp
+ImgSliderDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "ole32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ImgSlider.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
