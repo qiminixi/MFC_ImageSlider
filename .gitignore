@@ -2,8 +2,5 @@
 *.ilk
 debug/**
 release/**
-!/debug/*.exe
-!/release/*.exe
-
 *.aps
 *.user
