@@ -1,4 +1,4 @@
-#MFC_ImageSlider
+## MFC_ImageSlider
 
 This is an slider control using images.  
 You can choose either GDI or GDI+ for your need.  
